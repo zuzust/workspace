@@ -1,0 +1,60 @@
+# vim:ft=gitconfig
+# File: $WORKSPACE_DIR/installers/git/gitconfig
+
+[user]
+	name = Mr Windmills
+	email = mrwindmills.dev@gmail.com
+
+[alias]
+ 	a = add
+ 	b = branch
+	bd = branch -d
+	c = commit
+	cm = commit -m
+	ca = commit --amend --no-edit
+	co = checkout
+	d = diff
+	dc = diff --cached
+	f = fetch
+	l = log -20 --no-merges
+	lg = log -20 --graph
+	lm = log main..
+	lM = log master..
+	ls = log staging..
+	m = merge
+	p = push
+	pf = push -f
+	pd = push origin -delete
+	r = rebase
+	rim = rebase -i main
+	riM = rebase -i master
+	ris = rebase -i staging
+	rh = reset --hard
+	rp = remote prune origin
+	s = status
+	sh = show
+	shl = show HEAD
+
+[core]
+	editor = vim
+
+[merge]
+	tool = vimdiff
+
+[color]
+	ui = auto
+
+[format]
+	pretty = format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ai) %C(bold blue)<%an>%Creset
+
+[push]
+	default = simple
+
+[status]
+	submoduleSummary = true
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

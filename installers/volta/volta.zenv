@@ -1,0 +1,7 @@
+# vim:ft=zsh
+# File: $WORKSPACE_DIR/installers/volta/volta.zenv
+# Contents: Volta Env Variables
+
+# Needed by volta (see https://docs.volta.sh/guide/getting-started)
+export VOLTA_HOME="${HOME}/.volta"
+export PATH="${VOLTA_HOME}/bin:${PATH}"

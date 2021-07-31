@@ -1,0 +1,7 @@
+# vim:ft=zsh
+# File: $WORKSPACE_DIR/installers/starship/starship.zenv
+# Contents: Starship Setup
+
+eval "$(starship init zsh)"
+export STARSHIP_CONFIG=~/.starship/config.toml
+export STARSHIP_CACHE=~/.starship/cache

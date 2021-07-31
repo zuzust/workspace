@@ -1,0 +1,135 @@
+{
+  //
+  // VSCode Settings
+  //
+
+  // Editor
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.dragAndDrop": false,
+  "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'Droid Sans Fallback', Consolas, monospace",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.snippetSuggestions": "bottom",
+  "editor.tabSize": 2,
+  // Emmet
+  "emmet.includeLanguages": {
+    "edge": "html",
+    "nunjucks": "html",
+  },
+  // Extensions
+  "extensions.ignoreRecommendations": true,
+  // File Explorer
+  "explorer.openEditors.visible": 0,
+  // Files
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.js": { "when": "$(basename).ts" },
+    "**/.js.map": { "when": "$(basename)" },
+  },
+  "files.trimTrailingWhitespace": true,
+  // NPM
+  "npm.exclude": ["**/.cache", "**/.cache/**", "**/node_modules/**"],
+  "npm.scriptExplorerAction": "run",
+  // Telemetry
+  "telemetry.enableTelemetry": false,
+  // Window
+  "window.titleBarStyle": "custom",
+  // Workbench
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  // Built-in JavaScript / TypeScript Settings
+  "javascript.format.enable": true,
+  "js/ts.implicitProjectConfig.checkJs": false,
+  "typescript.format.enable": true,
+  // Per-language Overrides
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[json]": {
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 150,
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false,
+    "editor.quickSuggestions": false,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 100,
+    "files.trimTrailingWhitespace": false,
+  },
+  "[nunjucks]": {
+    "editor.defaultFormatter": "okitavera.vscode-nunjucks-formatter",
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 150,
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode",
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+
+  //
+  // Extensions Settings
+  //
+
+  // Auto Close Tag
+  "auto-close-tag.disableOnLanguage": ["typescript"],
+  // Bookmarks
+  // "bookmarks.useWorkaroundForFormatters": true,
+  // ESLint
+  "eslint.format.enable": true,
+  "eslint.packageManager": "yarn",
+  // Formatting Toggle
+  "formattingToggle.affects": ["formatOnSave"],
+  // Live Share
+  "liveshare.featureSet": "insiders",
+  // Multi-Command
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.makeRoom",
+      "sequence": [
+        "workbench.action.toggleSidebarVisibility",
+        "workbench.action.toggleActivityBarVisibility",
+        "workbench.action.toggleStatusbarVisibility",
+      ],
+    },
+  ],
+  // Peacock
+  "peacock.affectActivityBar": false,
+  "peacock.affectStatusBar": false,
+  // Prettier
+  "prettier.requireConfig": true,
+  // Settings Sync
+  "sync.autoUpload": true,
+  "sync.forceUpload": true,
+  "sync.gist": "e08a12e80dcc8d7e181634fc62081f9a",
+  "sync.quietSync": true,
+  // Tabnine
+  // "tabnine.experimentalAutoImports": true,
+  // Vetur
+  "vetur.completion.scaffoldSnippetSources": {
+    "vetur": "",
+  },
+  "vetur.format.enable": false,
+  // "vetur.grammar.customBlocks": {
+  //   "docs": "md",
+  //   "i18n": "json",
+  //   "page-query": "graphql",
+  //   "static-query": "graphql"
+  // },
+  "vetur.validation.template": false,
+  "window.menuBarVisibility": "toggle",
+  "redhat.telemetry.enabled": false,
+}

@@ -1,0 +1,7 @@
+# vim:ft=sh
+# File: $WORKSPACE_DIR/installers/git-subrepo/git-subrepo.zenv
+# Contents: Git Subrepo Env Variables
+
+export GIT_SUBREPO_DIR=$APPLICATIONS_DIR/GitSubrepo
+export PATH=$GIT_SUBREPO_DIR/lib:$PATH
+export MANPATH=$GIT_SUBREPO_DIR/man:$MANPATH

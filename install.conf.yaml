@@ -1,0 +1,44 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+    shell:
+      stdin: true
+      stdout: true
+      stderr: true
+      quiet: true
+
+- clean: ['~']
+
+- shell:
+  - [mkdir -p ~/Aplicacions, Creating applications directory ...]
+  - [mkdir -p ~/.bin, Creating user bin directory ...]
+
+- shell:
+  - [~/.workspace/installers/dotfiles/dotfiles-install.sh, Setting up dotfiles ...]
+  - [~/.workspace/installers/zsh/zsh-setup.sh, Setting up zsh ...]
+  - [~/.workspace/installers/git/git-setup.sh, Setting up git ...]
+  - [~/.workspace/installers/git-subrepo/git-subrepo-install.sh, Setting up git-subrepo ...]
+  - [~/.workspace/installers/tree/tree-install.sh, Installing tree (displays an indented directory tree, in color) ...]
+  - [~/.workspace/installers/direnv/direnv-install.sh, Installing direnv (env variables manager) ...]
+  - [~/.workspace/installers/fonts/fonts-install.sh, Installing fonts ...]
+  - [~/.workspace/installers/starship/starship-install.sh, Installing starship (custom cross-shell prompt) ...]
+  - [~/.workspace/installers/volta/volta-install.sh, Installing volta (javascript tool manager) ...]
+  - [~/.workspace/installers/docker/docker-install.sh, Installing docker ...]
+  - [~/.workspace/installers/docker-compose/docker-compose-install.sh, Installing docker compose ...]
+  - [~/.workspace/installers/brave/brave-install.sh, Installing brave browser ...]
+  - [~/.workspace/installers/vscode/vscode-install.sh, Installing visual studio code editor ...]
+  - [~/.workspace/installers/sublime-merge/sublime-merge-install.sh, Installing sublime merge (git gui) ...]
+  - [~/.workspace/installers/meld/meld-install.sh, Installing meld (diff gui) ...]
+  - [~/.workspace/installers/sequeler/sequeler-install.sh, Installing sequeler (sql db gui) ...]
+  - [~/.workspace/installers/bitwarden/bitwarden-install.sh, Installing bitwarden (password manager) ...]
+  - [~/.workspace/installers/pika-backup/pika-backup-install.sh, Installing pika backup (backups gui) ...]
+  - [source ~/.zshrc, Sourcing zsh configuration ...]
+
+- shell:
+  - [sudo apt install -y ecryptfs-utils, Installing ecryptfs-utils (cryptographic filesystem) ...]
+  - [sudo apt install -y htop, Installing htop (interactive processes viewer) ...]
+  - [sudo apt install -y httpie, Installing httpie (HTTP CLI) ...]
+  - [sudo apt install -y magic-wormhole, Installing wormhole (secure p2p data transfer) ...]
+  - [sudo apt install -y wipe, Installing wipe (secure file deletion) ...]

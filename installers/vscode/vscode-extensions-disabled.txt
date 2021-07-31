@@ -1,0 +1,15 @@
+andys8.jest-snippets
+austenc.tailwind-docs
+bungcip.better-toml
+ChakrounAnas.turbo-console-log
+christian-kohler.path-intellisense
+DavidAnson.vscode-markdownlint
+douglaszaltron.nunjucks-vscode-extensionpack
+eseom.nunjucks-template
+kisstkondoros.vscode-gutter-preview
+oderwat.indent-rainbow
+pranaygp.vscode-css-peek
+Tabnine.tabnine-vscode
+wix.vscode-import-cost
+xabikos.JavaScriptSnippets
+yzhang.markdown-all-in-one

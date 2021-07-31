@@ -1,0 +1,29 @@
+{
+	//
+	// See: https://code.visualstudio.com/docs/editor/userdefinedsnippets
+	//
+	"A Functional Component": {
+		"prefix": "a-func-comp",
+		"body": [
+			"<template functional>",
+			"  <div",
+			"    :ref=\"data.ref\"",
+			"    :class=\"[data.class, data.staticClass]\"",
+			"    :style=\"[data.style, data.staticStyle]\"",
+			"    v-bind=\"data.attrs\"",
+			"    v-on=\"listeners\"",
+			"  >",
+			"    $0",
+			"  </div>",
+			"</template>",
+			"",
+			"<script>",
+			"export default {",
+			"  name: '${1:AFunctionalComponent}',",
+			"};",
+			"</script>",
+			""
+		],
+		"description": "A Functional Component"
+	}
+}
