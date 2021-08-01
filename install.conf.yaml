@@ -31,7 +31,7 @@
   - [~/.workspace/installers/vscode/vscode-install.sh, Installing visual studio code editor ...]
   - [~/.workspace/installers/sublime-merge/sublime-merge-install.sh, Installing sublime merge (git gui) ...]
   - [~/.workspace/installers/meld/meld-install.sh, Installing meld (diff gui) ...]
-  - [~/.workspace/installers/sequeler/sequeler-install.sh, Installing sequeler (sql db gui) ...]
+  - [~/.workspace/installers/beekeeper/beekeeper-install.sh, Installing beekeeper studio (sql db gui) ...]
   - [~/.workspace/installers/bitwarden/bitwarden-install.sh, Installing bitwarden (password manager) ...]
   - [~/.workspace/installers/pika-backup/pika-backup-install.sh, Installing pika backup (backups gui) ...]
   - [source ~/.zshrc, Sourcing zsh configuration ...]
