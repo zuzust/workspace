@@ -20,7 +20,7 @@ echo \
 sudo apt update
 
 # Install the latest version of Visual Studio Code ...
-sudo apt install code
+sudo apt install -y code
 
 # Install extensions ...
 $VSC_INSTALLER_DIR/ext-install.sh
