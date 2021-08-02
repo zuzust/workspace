@@ -23,7 +23,7 @@ echo \
 sudo apt update
 
 # Install the latest version of Docker CE ...
-sudo apt install docker-ce docker-ce-cli containerd.io
+sudo apt install -y docker-ce docker-ce-cli containerd.io
 
 # Create the docker group ...
 sudo groupadd docker
