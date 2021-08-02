@@ -17,7 +17,7 @@ echo \
 sudo apt update
 
 # Install the latest version of Brave ...
-sudo apt install brave-browser
+sudo apt install -y brave-browser
 
 
 # vim:ft=sh
