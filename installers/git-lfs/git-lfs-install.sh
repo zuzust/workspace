@@ -7,7 +7,7 @@
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 
 # Install the package ...
-sudo apt install git-lfs
+sudo apt install -y git-lfs
 
 # Install the git command line extension ...
 git lfs install
