@@ -39,6 +39,7 @@
   // Telemetry
   "telemetry.enableTelemetry": false,
   // Window
+  "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "custom",
   // Workbench
   "workbench.colorTheme": "Atom One Dark",
@@ -111,10 +112,12 @@
   "peacock.affectStatusBar": false,
   // Prettier
   "prettier.requireConfig": true,
+  // RedHat
+  "redhat.telemetry.enabled": false,
   // Settings Sync
   "sync.autoUpload": true,
   "sync.forceUpload": true,
-  "sync.gist": "e08a12e80dcc8d7e181634fc62081f9a",
+  "sync.gist": "2996e7cb83a18475f630fa6d0aef5040",
   "sync.quietSync": true,
   // Tabnine
   // "tabnine.experimentalAutoImports": true,
@@ -130,6 +133,4 @@
   //   "static-query": "graphql"
   // },
   "vetur.validation.template": false,
-  "window.menuBarVisibility": "toggle",
-  "redhat.telemetry.enabled": false,
 }
