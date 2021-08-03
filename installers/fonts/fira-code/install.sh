@@ -16,7 +16,7 @@ for type in Bold Light Medium Regular Retina SemiBold; do
         echo "wget -O $file_path $file_url"
         wget -O "${file_path}" "${file_url}"
     else
-	echo "Found existing file $file_path"
+	    echo "Found existing file $file_path"
     fi;
 done
 
