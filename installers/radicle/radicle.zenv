@@ -1,0 +1,6 @@
+# vim:ft=zsh
+# File: $WORKSPACE_DIR/installers/radicle/radicle.zenv
+# Contents: Radicle Env Variables
+
+# Needed by radicle (see https://docs.radicle.xyz/docs/getting-started#adding-the-remote-helper)
+export PATH="${HOME}/.radicle/bin:${PATH}"

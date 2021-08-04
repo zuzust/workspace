@@ -12,6 +12,15 @@
 - clean: ['~']
 
 - shell:
+  - [sudo apt install -y apt-transport-https, Installing apt-transport-https ...]
+  - [sudo apt install -y curl, Installing curl ...]
+  - [sudo apt install -y ecryptfs-utils, Installing ecryptfs-utils (cryptographic filesystem) ...]
+  - [sudo apt install -y htop, Installing htop (interactive processes viewer) ...]
+  - [sudo apt install -y httpie, Installing httpie (HTTP CLI) ...]
+  - [sudo apt install -y magic-wormhole, Installing wormhole (secure p2p data transfer) ...]
+  - [sudo apt install -y wipe, Installing wipe (secure file deletion) ...]
+
+- shell:
   - [mkdir -p ~/Aplicacions, Creating applications directory ...]
   - [mkdir -p ~/.bin, Creating user bin directory ...]
 
@@ -30,15 +39,9 @@
   - [~/.workspace/installers/brave/brave-install.sh, Installing brave browser ...]
   - [~/.workspace/installers/vscode/vscode-install.sh, Installing visual studio code editor ...]
   - [~/.workspace/installers/sublime-merge/sublime-merge-install.sh, Installing sublime merge (git gui) ...]
+  - [~/.workspace/installers/radicle/radicle-install.sh, Installing radicle (decentralized code collaboration network) ...]
   - [~/.workspace/installers/meld/meld-install.sh, Installing meld (diff gui) ...]
   - [~/.workspace/installers/beekeeper/beekeeper-install.sh, Installing beekeeper studio (sql db gui) ...]
   - [~/.workspace/installers/bitwarden/bitwarden-install.sh, Installing bitwarden (password manager) ...]
   - [~/.workspace/installers/pika-backup/pika-backup-install.sh, Installing pika backup (backups gui) ...]
   - [source ~/.zshrc, Sourcing zsh configuration ...]
-
-- shell:
-  - [sudo apt install -y ecryptfs-utils, Installing ecryptfs-utils (cryptographic filesystem) ...]
-  - [sudo apt install -y htop, Installing htop (interactive processes viewer) ...]
-  - [sudo apt install -y httpie, Installing httpie (HTTP CLI) ...]
-  - [sudo apt install -y magic-wormhole, Installing wormhole (secure p2p data transfer) ...]
-  - [sudo apt install -y wipe, Installing wipe (secure file deletion) ...]
