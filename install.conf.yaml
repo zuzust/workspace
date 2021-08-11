@@ -45,3 +45,6 @@
   - [~/.workspace/installers/bitwarden/bitwarden-install.sh, Installing bitwarden (password manager) ...]
   - [~/.workspace/installers/pika-backup/pika-backup-install.sh, Installing pika backup (backups gui) ...]
   - [source ~/.zshrc, Sourcing zsh configuration ...]
+
+- shell:
+  - [echo ~/.workspace/installers/volta/volta-toolchain-install.sh, (Volta) Install development toolchain ...]
