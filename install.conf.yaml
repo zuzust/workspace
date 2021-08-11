@@ -47,6 +47,7 @@
   - [source ~/.zshrc, Sourcing zsh configuration ...]
 
 - shell:
+  - [echo ~/.gitconfig, (Git) Define your global user name and email ...]
   - [echo ~/.workspace/installers/volta/volta-toolchain-install.sh, (Volta) Install development toolchain ...]
   - [echo ~/Library/Caches/Bit/, (Bit) Copy configuration ...]
   - [echo ~/.workspace/installers/bit/bit-setup.sh, (Bit) Setup environment ...]
