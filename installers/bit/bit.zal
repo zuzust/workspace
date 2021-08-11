@@ -1,5 +1,5 @@
 # vim:ft=zsh
-# File: $DOTFILES_PATH/installers/bit/bit.zal
+# File: $WORKSPACE_DIR/installers/bit/bit.zal
 # Contents: Bit aliases
 
 alias bim='bit import --ignore-dist --skip-npm-install'

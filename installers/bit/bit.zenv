@@ -1,0 +1,7 @@
+# vim:ft=zsh
+# File: $WORKSPACE_DIR/installers/bit/bit.zenv
+# Contents: Bit Env Variables
+
+# Needed by Bit to export components and to import from private scopes
+# (see https://docs.bit.dev/docs/setup-authentication)
+export BIT_TOKEN=$(bit config get user.token)
