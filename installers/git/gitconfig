@@ -2,8 +2,8 @@
 # File: $WORKSPACE_DIR/installers/git/gitconfig
 
 [user]
-	name = Mr Windmills
-	email = mrwindmills.dev@gmail.com
+	name = Carles Muiños
+	email = carles.ml.dev@gmail.com
 
 [alias]
  	a = add
